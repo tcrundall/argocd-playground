@@ -5,6 +5,8 @@ metadata:
   labels:
     app: nginx-deployment
 spec:
+  replicas:
+    3
   selector:
     matchLabels:
       app: nginx
